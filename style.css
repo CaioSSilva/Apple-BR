@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "SF Pro" ;
+    src: url(font/FontsFree-Net-SFProText-Regular.ttf);
+}
+body{
+    font-family: SF Pro;
+    background: #FBFBFD;
+}
+.menu{
+    background:#000000cc ;
+    top: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: saturate(120%) blur(20px);
+}
+.menu-itens{
+    color: #afafaf;
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-itens img{
+    display: flex;
+    align-self: center;
+    width: 15px;
+}
+.loja:hover, .mac:hover, .ipad:hover, .iphone:hover, .watch:hover, .airpods:hover, .tv-home:hover, .just-apple:hover, .acess:hover, .sup:hover{
+    color: #cacaca;
+    cursor: pointer;
+}
+.content-1{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-13-Pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-13-Pro h1{
+    font-size: 40px;
+    margin: 10px;
+}
+.title-13-Pro h2{
+    font-size: 20px;
+    font-weight: 200;
+}
+.title-13-Pro h3{
+    margin: 10px;
+    font-size: 16px;
+    color: #737373;
+}
+.links-13-Pro > ul{
+    gap: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #2997ff;
+}
+.links-13-Pro > ul > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-se{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-se h1{
+    font-size: 20px;
+    margin: 10px;
+}
+.title-se h2{
+    font-size: 20px;
+    font-weight: 200;
+}
+.title-se h3{
+    margin: 10px;
+    font-size: 16px;
+    color: #737373;
+}
+.links-se > ul{
+    gap: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #2997ff;
+}
+.links-se > ul > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content-3{
+    height: 500px;
+    display: flex;
+    background: black;
+}
+.ipad-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+.ipad-image{
+    display: flex;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+}
+.ipad-title h1{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+}
+.ipad-title h2{
+    font-size: 20px;
+    font-weight: 200;
+    color: #969696;
+}
+.ipad-links{
+    text-align: center;
+}
+.ipad-links > ul{
+    gap: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #2997ff;
+}
+.ipad-links > ul > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.image-13-Pro img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-se img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ipad-image img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:700px) {
+    .menu{
+        width: min-content;
+    }
+    .menu-itens img{
+        margin-left: 5px;
+    }
+    .content-3{
+        flex-direction: column;
+    }
+    .ipad-title{
+        margin-top: 10px;
+        width: 100%;
+        height: 50%;
+    }
+    .ipad-image{
+        width: 100%;
+    }
+}
