@@ -40,7 +40,7 @@ body{
     font-size: 16px;
 }
 .menu-itens li:hover{
-    font-weight: 600;
+    text-decoration: underline;
     cursor: pointer;
 }
 .menu-itens ul > button{
