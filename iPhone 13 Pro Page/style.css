@@ -56,7 +56,7 @@ body{
     cursor: pointer;
 }
 .menu-itens ul > button:hover{
-    background: #388ee4;
+    background: #0056ac;
 }
 .phone h1{
     font-size: 35px;
