@@ -52,14 +52,17 @@ body{
 .title-13-Pro h1{
     font-size: 40px;
     margin: 10px;
+    text-align: center;
 }
 .title-13-Pro h2{
     font-size: 20px;
     font-weight: 200;
+    text-align: center;
 }
 .title-13-Pro h3{
     margin: 10px;
     font-size: 16px;
+    text-align: center;
     color: #737373;
 }
 .links-13-Pro > ul{
@@ -89,15 +92,18 @@ body{
 .title-se h1{
     font-size: 20px;
     margin: 10px;
+    text-align: center;
 }
 .title-se h2{
     font-size: 20px;
     font-weight: 200;
+    text-align: center;
 }
 .title-se h3{
     margin: 10px;
     font-size: 16px;
     color: #737373;
+    text-align: center;
 }
 .links-se > ul{
     gap: 20px;
@@ -133,12 +139,14 @@ body{
 .ipad-title h1{
     font-size: 20px;
     font-weight: 300;
+    text-align: center;
     margin: 10px;
 }
 .ipad-title h2{
     font-size: 20px;
     font-weight: 200;
     color: #969696;
+    text-align: center;
 }
 .ipad-links{
     text-align: center;
