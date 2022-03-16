@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "SF Pro" ;
+    src: url(font/FontsFree-Net-SFProText-Regular.ttf);
+}
+body{
+    font-family: SF Pro;
+    background: white;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.800) ;
+    height: 50px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: saturate(120%) blur(10px);
+}
+.menu-itens{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-itens ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.menu-itens li{
+    font-weight: 300;
+    font-size: 16px;
+}
+.menu-itens li:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu-itens ul > button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 10px;
+    background: #0071E3;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.menu-itens ul > button:hover{
+    background: #388ee4;
+}
+.phone h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.phone h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+.phone img{
+    display: flex;
+    width: 100%;
+    float:right;
+}
+.description{
+    background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/manifesto/wallpaper_startframe__crc5hsgtpzo2_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.description h1{
+    display: flex;
+    width: 60%;
+    margin: 0px auto;
+    padding: 50px;
+    font-size: 50px;
+}
+.description h2{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.description h3{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
