@@ -24,6 +24,7 @@ body{
     display: flex;
     list-style: none;
     align-items: center;
+    text-align: center;
     justify-content: center;
     gap: 30px;
 }
@@ -186,7 +187,7 @@ body{
         width: min-content;
     }
     .menu-itens img{
-        padding-left: 25px;
+        padding-left: 20px;
     }
     .content-3{
         flex-direction: column;
