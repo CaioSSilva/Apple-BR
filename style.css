@@ -186,7 +186,7 @@ body{
         width: min-content;
     }
     .menu-itens img{
-        margin-left: 5px;
+        padding-left: 30px;
     }
     .content-3{
         flex-direction: column;
