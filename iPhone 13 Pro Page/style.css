@@ -295,6 +295,12 @@ body{
     .tela-pro{
         width: 100%;
     }
+    .tela-pro-max img{
+        padding-right: 10px;
+    }
+    .tela-pro img{
+        padding-left: 10px;
+    }
     .retina h2 {
         text-align: center;
         width: 100%;
