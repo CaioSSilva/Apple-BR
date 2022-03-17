@@ -323,7 +323,14 @@ body{
 .footer a:hover{
     text-decoration: underline;
 }
+.search:hover{
+    filter: invert(100%) brightness(500%) contrast(1);
+    cursor: pointer;
+}
 @media screen and (max-width:700px) {
+    .menu-itens > .loja{
+        display: none;
+    }
     .menu{
         width: min-content;
     }
