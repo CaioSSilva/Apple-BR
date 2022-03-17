@@ -190,10 +190,17 @@ body{
     overflow: hidden;
     background: black;
     width: 50%;
-
+    justify-items: end;
 }
 .image-camera img{
+    height: 100%;
+    width: auto;
+    display: block;
     margin-top: 30px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: right bottom;
     float: right;
 }
 .side-black{
