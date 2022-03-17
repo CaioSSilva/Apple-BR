@@ -188,6 +188,7 @@ body{
 .image-camera{
     display: flex;
     justify-content: right;
+    align-items: end;
     height: 750px;
     overflow: hidden;
     background: black;
@@ -227,8 +228,21 @@ body{
     font-size: 20px;
 }
 @media screen and (max-width:700px) {
+    .description h1{
+        font-size: 30px;
+    }
+    .description h2{
+        width: 90%;
+    }
+    .menu{
+        justify-content:start;
+        align-items: center;
+    }
+    .menu-itens ul{
+        gap: 25px;
+    }
     .menu-itens h1{
-        font-size: 16px;
+        display: none;
     }
     .menu-itens ul > li{
         font-size: 14px;
@@ -277,6 +291,10 @@ body{
     }
     .image-camera{
         width: 100%;
+    }
+    .image-camera img{
+        width: 80%;
+        height: 80%;
     }
     .image-cores{
         width: 100%;
