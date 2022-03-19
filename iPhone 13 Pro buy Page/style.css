@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "SF Pro" ;
+    src: url(font/FontsFree-Net-SFProText-Regular.ttf);
+}
+body{
+    font-family: SF Pro;
+    background: white;
+}
+.menu{
+    width: 100%;
+    top: 0;
+    height: 50px;
+    position: fixed;
+    background: #fefeffbe;
+    backdrop-filter: saturate(120%) blur(10px);
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.menu-list h1{
+    font-weight: 800;
+    font-size: 20px;
+}
+.menu-list p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.promotion{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
+    background: #f5f5f7;
+}
+.promotion-text{
+    font-size: 14px;
+}
+.promotion-text a{
+    color: #2997ff;
+    font-size: 14px;
+}
+.promotion-text a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+.selections{
+    width: 50%;
+}
+.new{
+    color: #bf4800;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title-buy{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.verde-alpino{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.choice-text{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.selections a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.selections a:hover{
+    text-decoration: underline;
+}
+.iphone-13-pro{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    width: 400px;
+    height: 70px;
+    border: 1px #d2d2d7 solid;
+    border-radius: 10px;
+    color: #1d1d1f;
+    margin-top: 30px;
+}
+.iphone-13-pro-max{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 400px;
+    height: 70px;
+    border: 1px #d2d2d7 solid;
+    color: #1d1d1f;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.iphone-13-pro h1, h2 {
+    font-size: 17px;
+}
+.iphone-13-pro-max h1, h2{
+    font-size: 17px;
+}
+.iphone-13-pro:active{
+    outline: 4px solid rgba(0,125,250,.6);
+    outline-offset: 1px;
+}
+.iphone-13-pro-max:active{
+    outline: 4px solid rgba(0,125,250,.6);
+    outline-offset: 1px;
+}
+hr{
+    width: 450px;
+}
