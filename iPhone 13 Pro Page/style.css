@@ -65,6 +65,14 @@ body{
     color: white;
     cursor: pointer;
 }
+.menu-itens button > a{
+    text-decoration: none;
+    color: white;
+}
+.menu-itens button > a:visited{
+    text-decoration: none;
+    color: white;
+}
 .menu-itens ul > button:hover{
     background: #0056ac;
 }
