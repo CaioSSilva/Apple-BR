@@ -189,7 +189,7 @@ body{
     text-decoration: underline;
     cursor: pointer;
 }
-.image-13-Pro img{
+.iphone-13-comum{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -333,6 +333,9 @@ body{
     filter: invert(100%) brightness(500%) contrast(1);
     cursor: pointer;
 }
+.iphone-13-lado{
+    display: none;
+}
 @media screen and (max-width:700px) {
     .loja, .watch, .airpods, .tv-home, .just-apple, .acess, .sup{
         display: none;
@@ -363,5 +366,13 @@ body{
     }
     .ipad-image{
         width: 100%;
+    }
+    .iphone-13-comum{
+        display: none;
+    }
+    .iphone-13-lado{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
     }
 }
