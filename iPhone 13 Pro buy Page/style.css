@@ -257,20 +257,3 @@ hr{
     background: #035fbb;
     cursor: pointer;
 }
-@media screen and (max-width: 700px) {
-    .content{
-        flex-direction: column;
-    }
-    .phone{
-        width: 100%;
-    }
-    .selections{
-        width: 100%;
-    }
-    .selections > div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
