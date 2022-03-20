@@ -188,6 +188,9 @@ hr{
     text-decoration: none;
     color: #2997ff;
 }
+.space-div a:hover{
+    cursor: pointer;
+}
 .space-div h1{
     margin-top: 20px;
     margin-bottom: 10px;
