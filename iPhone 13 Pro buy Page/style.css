@@ -44,6 +44,7 @@ body{
 }
 .promotion-text{
     font-size: 14px;
+    text-align: center;
 }
 .promotion-text a{
     color: #2997ff;
@@ -64,7 +65,16 @@ body{
     height: 500px;
 }
 .selections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
+}
+.selections > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .new{
     color: #bf4800;
@@ -137,6 +147,115 @@ body{
 }
 hr{
     width: 450px;
+    margin: 0 auto;
+}
+.color-div h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.color-select{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.color-select > div{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 1px #d2d2d7 solid;
+    border-radius: 10px;
+}
+.color-select div > p {
+    margin-bottom: 5px;
+}
+.color-select div > img{
+    width: 35px;
+    margin: 5px;
+}
+.color-select > div:active{
+    outline: 4px solid rgba(0,125,250,.6);
+    outline-offset: 1px;
+}
+.space-div a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #2997ff;
+}
+.space-div h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.space-select{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.space-select> div{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 1px #d2d2d7 solid;
+    border-radius: 10px;
+}
+.space-select > div:active{
+    outline: 4px solid rgba(0,125,250,.6);
+    outline-offset: 1px;
+}
+.space-select div > h2{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.space-select div > p{
+    font-size: 12px;
+}
+.finalize{
+    padding: 20px;
+    text-align: justify;
+    background: #d8d8d8;
+    border-radius: 10px;
+    margin-top: 50px;
+    align-self: center;
+    margin-bottom: 50px;
+    width: 380px;
+}
+.finalize button{
+    background: #0071e3;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.finalize h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.finalize h2{
+    font-size: 12px;
+    font-weight: 400;
+}
+.finalize button:hover{
+    background: #035fbb;
+    cursor: pointer;
 }
 @media screen and (max-width: 700px) {
     .content{
