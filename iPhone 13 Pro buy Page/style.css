@@ -260,3 +260,15 @@ hr{
     background: #035fbb;
     cursor: pointer;
 }
+@media screen and (max-width:750px) {
+    .content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .phone{
+        width: 100%;
+    }
+    .selections{
+        width: 100%;
+    }
+}
