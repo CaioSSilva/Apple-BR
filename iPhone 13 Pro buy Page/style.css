@@ -137,14 +137,6 @@ body{
 .iphone-13-pro-max h1, h2{
     font-size: 17px;
 }
-.iphone-13-pro:active{
-    outline: 4px solid rgba(0,125,250,.6);
-    outline-offset: 1px;
-}
-.iphone-13-pro-max:active{
-    outline: 4px solid rgba(0,125,250,.6);
-    outline-offset: 1px;
-}
 hr{
     width: 450px;
     margin: 0 auto;
@@ -179,10 +171,6 @@ hr{
     width: 35px;
     margin: 5px;
 }
-.color-select > div:active{
-    outline: 4px solid rgba(0,125,250,.6);
-    outline-offset: 1px;
-}
 .space-div a{
     font-size: 13px;
     text-decoration: none;
@@ -213,10 +201,6 @@ hr{
     height: 100px;
     border: 1px #d2d2d7 solid;
     border-radius: 10px;
-}
-.space-select > div:active{
-    outline: 4px solid rgba(0,125,250,.6);
-    outline-offset: 1px;
 }
 .space-select div > h2{
     font-size: 25px;
