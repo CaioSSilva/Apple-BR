@@ -2,6 +2,8 @@ const imagem = document.getElementById("iphone-image");
 const tipos = [document.getElementById("iphone-13-pro"),document.getElementById("iphone-13-pro-max")]
 const cores = [document.getElementById("green"),document.getElementById("silver"),document.getElementById("gold"),document.getElementById("graphite")]
 const arm = [document.getElementById("arm1"),document.getElementById("arm2"),document.getElementById("arm3"),document.getElementById("arm4")]
+const finalizeBox = document.getElementById("final-content") 
+const OkayButton = document.getElementById("ok")
 
 
 
@@ -92,4 +94,12 @@ function arm4Active(){
     arm[0].style.outline = "none"
     arm[2].style.outline = "none"
     arm[1].style.outline = "none"
+}
+
+
+function finalizarCompra(){
+    finalizeBox.style.display = "flex"
+}
+function esconderFinal(){
+    finalizeBox.style.display = "none"
 }

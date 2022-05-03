@@ -9,6 +9,13 @@
     <link rel="shortcut icon" href="image/grey-logo.ico" type="image/x-icon">
 </head>
 <body>
+    <div id="final-content">
+        <div class="sucesso">
+            <h1>Erro! Credito Insuficiente</h1>
+            <p>(Você é pobre)</p>
+            <button id="ok" onclick="esconderFinal()">Ok</button>
+        </div>
+    </div>
     <section class="menu">
         <nav>
             <ul class="menu-list">
@@ -110,12 +117,12 @@
                 </div>
             </div>
             <div class="finalize">
-                <button>Continuar</button>
+                <button onclick="finalizarCompra()">Continuar</button>
                 <h1>Ainda não decidiu?</h1>
                 <h2>Adicione este item a sua lista e volte mais tarde</h2>
             </div>
         </div>
     </section>
-    <script src="image-change.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>

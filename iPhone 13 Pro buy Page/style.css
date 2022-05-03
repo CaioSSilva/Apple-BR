@@ -307,7 +307,46 @@ hr{
     text-decoration: underline;
     cursor: pointer;
 }
+#final-content{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.sucesso{
+    display: flex;
+    border: 2px solid #0071e3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    background: #ececec;
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 12px;
+}
+.sucesso button{
+    background: #0071e3;
+    color: white;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.sucesso button:hover{
+    background: #00478f;
+    cursor: pointer;
+}
 @media screen and (max-width:750px) {
+    .sucesso{
+        width: 380px;
+    }
     .phone-movement{
         top: inherit;
         position: inherit;
