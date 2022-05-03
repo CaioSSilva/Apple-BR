@@ -22,7 +22,21 @@
     </section>
     <section class="content">
         <div class="phone">
-            <img id="iphone-image" src="image/iphone-13-pro-two.png" alt="iphone 13 Pro">
+            <div class="phone-movement">
+                <img id="iphone-image" src="image/iphone-13-pro-two.png" alt="iphone 13 Pro">
+                <div class="phone-plus-content">
+                    <img src="image/box.png" alt="">
+                    <p>Frete grátis.</p>
+                    <hr class="phone-hr">
+                    <div class="apple-support">
+                        <img src="image/ballon.png" alt="" srcset="">
+                        <div>
+                            <p>Tem dúvidas sobre a compra de um iPhone?</p>
+                            <a>Converse com um especialista em iPhone</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="selections">
             <div>
@@ -31,7 +45,7 @@
                 <h1 class="verde-alpino">Verde-alpino – Confira em breve a disponibilidade.</h1>
                 <h1 class="choice-text">Escolha o modelo.</h1>
                 <a href="">Qual é o modelo ideal para você?</a>
-                <div class="iphone-13-pro" id="iphone-13-pro">
+                <div class="iphone-13-pro" id="iphone-13-pro" onclick="trezeProActive()">
                     <div>
                         <h1>iPhone 13 Pro</h1>
                         <p>Tela de 6,1 polegadas</p>
@@ -40,7 +54,7 @@
                         <h2>A partir de R$ 9.176</h2>
                     </div>
                 </div>
-                <div class="iphone-13-pro-max">
+                <div class="iphone-13-pro-max" id="iphone-13-pro-max" onclick="trezeProMaxActive()">
                     <div>
                         <h1>iPhone 13 Pro Max</h1>
                         <p>Tela de 6,7 polegadas</p>
@@ -50,46 +64,46 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <hr class="hr">
             <div class="color-div">
                 <h1>Escolha a Cor</h1>
                 <div class="color-select">
-                    <div>
+                    <div id="green" onclick="greenActive()">
                         <img src="image/green.jpg">
                         <p>Verde-Alpino</p>
                     </div>
-                    <div>
+                    <div id="silver" onclick="silverActive()">
                         <img src="image/silver.jpg">
                         <p>Prateado</p>
                     </div>
-                    <div>
+                    <div id="gold" onclick="goldActive()">
                         <img src="image/gold.jpg">
                         <p>Dourado</p>
                     </div>
-                    <div>
+                    <div id="graphite" onclick="graphiteActive()">
                         <img src="image/graphite.jpg">
                         <p>Grafite</p>
                     </div>
                 </div>
             </div>
-            <hr>
+            <hr class="hr">
             <div class="space-div">
                 <h1>Escolha o armazenamento</h1>
                 <a> Qual o armazenamento ideal para você?</a>
                 <div class="space-select">
-                    <div>
+                    <div id="arm1" onclick="arm1Active()">
                         <h2>128 GB</h2>
                         <p>A partir de R$ 9.176 </p>
                     </div>
-                    <div>
+                    <div id="arm2" onclick="arm2Active()">
                         <h2>256 GB</h2>
                         <p>A partir de R$ 10.142 </p>
                     </div>
-                    <div>
+                    <div id="arm3" onclick="arm3Active()">
                         <h2>512GB</h2>
                         <p>A partir de R$ 12.074 </p>
                     </div>
-                    <div>
+                    <div id="arm4" onclick="arm4Active()">
                         <h2>1TB</h2>
                         <p>A partir de R$ 14.006 </p>
                     </div>

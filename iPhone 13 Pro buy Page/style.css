@@ -40,14 +40,15 @@ body{
     justify-content: center;
     height: 50px;
     margin-top: 50px;
-    background: #f5f5f7;
+    background: #369eff;
+    color: white;
 }
 .promotion-text{
     font-size: 14px;
     text-align: center;
 }
 .promotion-text a{
-    color: #2997ff;
+    color: #0054a8;
     font-size: 14px;
 }
 .promotion-text a:hover{
@@ -59,19 +60,34 @@ body{
 }
 .phone{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+.phone-movement{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 500px;
+    top: 0;
+    position: fixed;
 }
 #iphone-image{
+    margin-top: 100px;
+    width: 40%;
+}
+.maxNotActive{
+    height: 90%;
+}
+.maxActive{
     height: 100%;
 }
 .selections{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 35%;
 }
 .selections > div {
     display: flex;
@@ -120,6 +136,7 @@ body{
     border-radius: 10px;
     color: #1d1d1f;
     margin-top: 30px;
+    user-select: none;
 }
 .iphone-13-pro-max{
     display: flex;
@@ -133,6 +150,7 @@ body{
     border-radius: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+    user-select: none;
 }
 .iphone-13-pro h1, h2 {
     font-size: 17px;
@@ -155,6 +173,7 @@ hr{
     flex-wrap: wrap;
     margin-bottom: 20px;
     justify-content: center;
+    user-select: none;
 }
 .color-select > div{
     margin: 10px;
@@ -194,6 +213,7 @@ hr{
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: center;
+    user-select: none;
 }
 .space-select> div{
     margin: 10px;
@@ -224,6 +244,7 @@ hr{
     align-self: center;
     margin-bottom: 50px;
     width: 380px;
+    user-select: none;
 }
 .finalize button{
     background: #0071e3;
@@ -249,7 +270,49 @@ hr{
     background: #035fbb;
     cursor: pointer;
 }
+.phone-plus-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phone-plus-content > img{
+    width: 55px;  
+}
+.phone-plus-content p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.apple-support{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple-support img{
+    width: 55px;
+}
+.apple-support p{
+    font-weight: 700;
+}
+.apple-support a{
+    color: #035fbb;
+    font-size: 12px;
+}
+.apple-support a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 @media screen and (max-width:750px) {
+    .phone-movement{
+        top: inherit;
+        position: inherit;
+        margin: 0px;
+        width: 100%;
+    }
+    .phone-plus-content{
+        display: none;
+    }
     .menu{
         width: 100vw;
     }
@@ -261,7 +324,9 @@ hr{
         width: 100%;
     }
     #iphone-image{
+        margin: 0;
         height: 80%;
+        width: 100%;
     }
     .title-buy{
         font-size: 32px;
