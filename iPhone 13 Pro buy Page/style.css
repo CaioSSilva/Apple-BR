@@ -77,6 +77,7 @@ body{
 #iphone-image{
     margin-top: 100px;
     width: 40%;
+    height: auto;
 }
 .maxNotActive{
     height: 90%;
