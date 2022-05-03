@@ -9,6 +9,7 @@
 body{
     font-family: SF Pro;
     background: #FBFBFD;
+    overflow-x: hidden;
 }
 .menu{
     background:#000000cc ;
