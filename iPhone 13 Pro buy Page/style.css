@@ -64,6 +64,9 @@ body{
     width: 50%;
     height: 500px;
 }
+#iphone-image{
+    height: 100%;
+}
 .selections{
     display: flex;
     flex-direction: column;
@@ -151,6 +154,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    justify-content: center;
 }
 .color-select > div{
     margin: 10px;
@@ -189,6 +193,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    justify-content: center;
 }
 .space-select> div{
     margin: 10px;
@@ -245,6 +250,9 @@ hr{
     cursor: pointer;
 }
 @media screen and (max-width:750px) {
+    .menu{
+        width: 100vw;
+    }
     .content{
         flex-direction: column;
         width: 100%;
@@ -252,7 +260,34 @@ hr{
     .phone{
         width: 100%;
     }
+    #iphone-image{
+        height: 80%;
+    }
+    .title-buy{
+        font-size: 32px;
+    }
     .selections{
         width: 100%;
+    }
+    .iphone-13-pro, .iphone-13-pro-max{
+        width: 350px;
+    }
+    hr{
+       width: 350px;
+    }
+    .space-select{
+        width: 100%;
+    }
+    .space-select > div{
+       width: 174px;
+    }
+    .color-select{
+        width: 100%;
+    }
+    .color-select > div{
+        width: 174px;
+    }
+    .finalize{
+        width: 340px;
     }
 }
