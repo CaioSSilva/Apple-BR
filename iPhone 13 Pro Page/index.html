@@ -21,9 +21,11 @@
         </nav>
     </section>
     <section class="phone">
-        <h1>iPhone 13 Pro</h1>
-        <h2>É Todo Pro.</h2>
-        <img src="image/iphone 13 large.jpg" alt="">
+        <div>
+            <h1>iPhone 13 Pro</h1>
+            <h2>É Todo Pro.</h2>
+        </div>
+        <video autoplay muted src="image/13 video.mp4"></video>
     </section>
     <section class="description">
         <h1>Novo sistema de câmera dramaticamente mais poderoso. Tela responsiva que surpreende a cada toque. O chip de smartphone mais rápido do mundo. Design com resistência fora de série. E um salto imenso na duração da bateria. <br>
@@ -84,5 +86,9 @@
             </div>
         </div>
     </section>
+    <script>
+        vid = document.getElementsByClassName(".video")
+        vid.disablePictureInPicture = true
+    </script>
 </body>
 </html>

@@ -16,7 +16,7 @@ body{
     top: 0;
     height: 50px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     backdrop-filter: saturate(120%) blur(20px);
     /*Sobreposição*/
     z-index: 1;
@@ -144,7 +144,6 @@ body{
     cursor: pointer;
 }
 .content-3{
-    height: 500px;
     display: flex;
     background: black;
 }
@@ -209,6 +208,7 @@ body{
 }
 .ipad-image img{
     width: 100%;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;

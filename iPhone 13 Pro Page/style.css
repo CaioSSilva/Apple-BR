@@ -76,6 +76,12 @@ body{
 .menu-itens ul > button:hover{
     background: #0056ac;
 }
+.phone{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
 .phone h1{
     font-size: 35px;
     text-align: center;
@@ -87,12 +93,15 @@ body{
     font-size: 60px;
     font-weight: 800;
 }
-.phone img{
+.phone video{
     display: flex;
     width: 100%;
-    float:right;
 }
 .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
     background-image: url(https://www.apple.com/v/iphone-13-pro/f/images/overview/manifesto/wallpaper_startframe__crc5hsgtpzo2_large.jpg);
     background-position: center;
     background-repeat: no-repeat;
